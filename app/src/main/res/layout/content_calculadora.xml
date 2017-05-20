@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.danilodiaz.calculadora.Calculadora"
+    tools:showIn="@layout/activity_calculadora">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="tv1"
+        android:text="Datos 1"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dato 2"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="et1"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="-24dp" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="et2"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:onClick="sumar"
+        android:text="Calcular"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="tv3"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="193dp" />
+</android.support.constraint.ConstraintLayout>
